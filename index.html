@@ -1,34 +1,27 @@
-<!-- alt + shit + a -->
-<!-- autocompletado: ctrl + spacio -->
-
-<!-- esta etiqueta define que este es un documento de HTML5 -->
 <!DOCTYPE html>
 
 <html lang="es">
 
-<!-- metadatos de la pagina -->
+
 <head> 
-    <!-- modifica el grupo de caracteres a usar, en este caso UTF-8 -->
+   
     <meta charset="UTF-8">
-    <!-- modifica el tamano del viewport -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- modifica el titulo de la pagina o la pestana -->
     <title>practica 3</title>  
 </head>
 
-<!-- todo lo que le queremos mostrar al usuario  -->
+
 <body>
 
-    <!-- el header es la cabecera de la pagina -->
+
     <header>
-        <!-- va a ir el logo -->
+        
         <nav>
             <a href="./contacto.html">Ir a la pagina de contacto</a>
         </nav>
     </header>
     
-    <!-- la etiqueta P sierve para poner parrafos -->
-    <!-- lorem ipsum -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam qui pariatur ipsam, suscipit, sapiente quam id laudantium ratione ducimus maxime, cum itaque dolores unde! Odit suscipit fugit possimus veritatis aliquam.</p>
     <hr>
     <p>Lorem ipsum dolor sit amet.</p>
@@ -89,13 +82,11 @@
     
     <p>
         este es un ejemplo de la 
-        <!-- strong sirve para darle enfasis semantico a una frase o palabra -->
-        <strong>etiqueta strong</strong>
+    <strong>etiqueta strong</strong>
     </p>
 
     <p>
         este es un ejemplo de la 
-        <!-- strong sirve para darle enfasis semantico a una frase o palabra -->
         <small>etiqueta small</small>
     </p>
 
@@ -112,7 +103,6 @@
     </p>
     
     <p>
-        <!-- es un comodin para encapsular texto sin que tenga ningun signifado semantico -->
         este es un ejemplo de la <span>etiqueta span</span>
     </p>
 
@@ -124,7 +114,7 @@
     </p>
     
     <p>Esta es una barra de navegacion de redes sociales</p>
-    <!-- nav nos indica una barra o menu de navegacion -->
+
     <aside>
         <nav>
             <ul>
@@ -142,7 +132,6 @@
     </aside>
     
     
-    <!-- encapsulara el contenido principal de nuestra pagina -->
     <main>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ipsum! Optio ipsum dolorem nisi aut nostrum porro, aspernatur dicta rerum quidem eveniet, mollitia totam incidunt placeat. Ab ea asperiores, dolorem ad, provident doloribus accusantium reiciendis itaque dolor commodi voluptatibus cum eveniet at, deleniti corporis molestias laboriosam error atque inventore ratione!
@@ -158,7 +147,7 @@
         <p> otra seccion </p>
     </section>
     
-    <!-- ejemplo de red bucal -->
+   
     <section>
         <article>
             <p>plan premium</p>
@@ -181,21 +170,18 @@
     <h5>titulo de quinto nivel</h5>
     <h6>Titulo de sexto nivel</h6>
 
-    <!-- el footer es el pie de pagina de nuestra web -->
     <footer>
         <a href="mailto:email@correo.com">contactanos a nuestro email</a>
         <a href="tel:+333333333"></a>
     </footer>
 
-    <!-- img sirve para incrustar imagenes -->
     <img 
         src="./img/perritos.jpg" 
         alt="Imagen de dos perros acostados sobre un mantel en la naturaleza" 
         width="300px"
     >
 
-    <!-- sirve para incrustar contenido externo a nuestra web -->
-    <!-- un ejemplo de un video de youtube -->
+  
     <iframe 
         width="560" 
         height="315" 
@@ -209,7 +195,7 @@
     </iframe>
 
     
-    <!-- un ejempl de un mapa de google maps -->
+
     <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.665941852927!2d-74.18337731851386!3d4.601501694636577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f004563fee9%3A0x6796d79caf8c3d31!2sEst%C3%A9tica%20del%20Pilar!5e0!3m2!1ses-419!2sco!4v1713492208230!5m2!1ses-419!2sco" 
         width="600" 
@@ -221,7 +207,6 @@
     >
     </iframe>
 
-    <!-- sirve para incrustar documentos PDFs -->
     <object 
         data="./PDF/partitura.pdf"
         type="application/pdf"
@@ -241,7 +226,6 @@
         controlslist="nodownload nofullscreen"
     ></video>
 
-    <!--  -->
 
     <audio 
         src="./audio/t-rex-roar.mp3"
@@ -256,7 +240,7 @@
         Descargar audio
     </a>
     
-    <!-- poner imagenes vectoriales -->
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="red">
         <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
     </svg>
@@ -304,7 +288,8 @@
                 <option value="cali">cali</option>
             </select>
         </label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quasi fugiat minima accusamus? Consequatur accusamus labore itaque, molestias ipsa sapiente sed officia eveniet possimus recusandae beatae laborum ad! Quibusdam, vitae?
+        </textarea>
         
         <br>
 
